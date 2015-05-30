@@ -1,6 +1,6 @@
 # web 前端专用 vim 配置
 - 要漂亮, 要漂亮, 要漂亮, 三遍完;
-- 一点一点改, :cupid:
+- 一点一点改中, :cupid:
 
 # [更新](update_log_shrekuu.md)
 - 已 [molokai](https://github.com/tomasr/molokai) 为默认高亮主题;
