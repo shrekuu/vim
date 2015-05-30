@@ -32,13 +32,13 @@ set rtp+=$GOROOT/misc/vim
 " 显示相关  
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
-set cul "高亮光标所在行
-set cuc
+" set cul "高亮光标所在列
+" set cuc
 set shortmess=atI   " 启动的时候不显示那个援助乌干达儿童的提示  
 set go=             " 不要图形按钮  
-"color desert     " 设置背景主题  
-color ron     " 设置背景主题  
-"color torte     " 设置背景主题  
+let g:molokai_original = 1
+let g:rehash256 = 1
+colorscheme molokai     " 设置背景主题  
 "set guifont=Courier_New:h10:cANSI   " 设置字体  
 "autocmd InsertLeave * se nocul  " 用浅色高亮当前行  
 autocmd InsertEnter * se cul    " 用浅色高亮当前行  
@@ -46,8 +46,8 @@ set ruler           " 显示标尺
 set showcmd         " 输入的命令显示出来，看的清楚些  
 "set whichwrap+=<,>,h,l   " 允许backspace和光标键跨越行边界(不建议)  
 set scrolloff=3     " 光标移动到buffer的顶部和底部时保持3行距离  
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}   "状态行显示的内容  
-set laststatus=2    " 启动显示状态行(1),总是显示状态行(2)  
+" set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}   "状态行显示的内容  
+" set laststatus=2    " 启动显示状态行(1),总是显示状态行(2)  
 "set foldenable      " 允许折叠  
 ""set foldmethod=manual   " 手动折叠  
 set nocompatible  "去掉讨厌的有关vi一致性模式，避免以前版本的一些bug和局限  
@@ -288,7 +288,7 @@ set completeopt=preview,menu
 "共享剪贴板  
 "set clipboard+=unnamed 
 "自动保存
-set autowrite
+" set autowrite
 "set ruler                   " 打开状态栏标尺
 "set cursorline              " 突出显示当前行
 set magic                   " 设置魔术
@@ -304,8 +304,8 @@ set noeb
 " 在处理未保存或只读文件的时候，弹出确认
 set confirm
 "禁止生成临时文件
-set nobackup
-set noswapfile
+" set nobackup
+" set noswapfile
 "搜索忽略大小写
 set ignorecase
 
@@ -396,6 +396,9 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
+
+" node 在这里 jslint 要用
+let $JS_CMD='node'
 
 
 set iskeyword+=.

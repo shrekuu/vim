@@ -1,3 +1,18 @@
+# web 前端专用 vim 配置
+- 要漂亮, 要漂亮, 要漂亮, 三遍完;
+- 一点一点改, :cupid:
+
+# [更新](update_log_shrekuu.md)
+- 已 [molokai](https://github.com/tomasr/molokai) 为默认高亮主题;
+
+运行截图: 
+![运行截图](screenshot2.png)
+
+
+以下为原仓库 README.md 内容, 感谢分享;
+
+---
+
 # 超强vim配置文件
 
 [![Build Status](https://travis-ci.org/ma6174/vim.png?branch=master)](https://travis-ci.org/ma6174/vim)
