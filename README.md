@@ -1,9 +1,11 @@
 # web 前端专用 vim 配置
 - 要漂亮, 要漂亮, 要漂亮, 三遍完;
-- 一点一点改中, :cupid:
+- 一点一点改中, :cupid:;
 
-# [更新](update_log_shrekuu.md)
+# 主要更新 [详细](update_log_shrekuu.md)
 - 已 [molokai](https://github.com/tomasr/molokai) 为默认高亮主题;
+- 修改 `fi` 为使用默认浏览器打开由 markdown 生成的 html 文件 :heart:;
+
 
 运行截图: 
 ![运行截图](screenshot2.png)
