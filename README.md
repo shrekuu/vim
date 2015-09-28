@@ -1,6 +1,11 @@
 # web 前端专用 vim 配置
 - 要漂亮, 要漂亮, 要漂亮, 三遍完;
 - 一点一点改中, :cupid:;
+ 
+# 如何安装, 在终端执行下面命令：
+```
+wget -qO- https://raw.github.com/shrekuu/vim/master/setup.sh | sh -x
+```
 
 # 主要更新 [详细](update_log_shrekuu.md)
 - 已 [molokai](https://github.com/tomasr/molokai) 为默认高亮主题;
